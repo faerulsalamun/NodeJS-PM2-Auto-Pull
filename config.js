@@ -5,6 +5,6 @@
 'use strict';
 
 module.exports = {
-    port: process.env.PORT || 7920,
+    port: 7920,
     secretKey: 'YOUR_SECRET_KEY',
 };

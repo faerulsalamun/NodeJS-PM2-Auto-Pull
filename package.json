@@ -1,6 +1,6 @@
 {
   "name": "NodeJS-PM2-Auto-Pull",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "NodeJS PM2 Auto Pull",
   "repository": {
     "type": "git",
