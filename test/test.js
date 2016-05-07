@@ -10,7 +10,7 @@ const request = require('supertest');
 const app = require('../app');
 
 describe('/hook', () => {
-    it('GET /hook should return 200 OK with content-type json with response success true', (done) => {
+    it('POST /hook should return 200 OK with content-type json with response success true', (done) => {
         request(app)
             .post('/hook?secretKey=' + config.secretKey)
             .set('Accept', 'application/json')
