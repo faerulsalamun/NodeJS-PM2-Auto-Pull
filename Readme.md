@@ -1,5 +1,9 @@
 # NodeJS Auto Pull PM2
 
+[![Build Status](https://travis-ci.org/faerulsalamun/NodeJS-PM2-Auto-Pull.svg?branch=master)](https://travis-ci.org/faerulsalamun/NodeJS-PM2-Auto-Pull)
+[![Dependency Status](https://david-dm.org/faerulsalamun/NodeJS-PM2-Auto-Pull.svg)](https://david-dm.org/faerulsalamun/NodeJS-PM2-Auto-Pull)
+[![devDependency Status](https://david-dm.org/faerulsalamun/NodeJS-PM2-Auto-Pull/dev-status.svg)](https://david-dm.org/faerulsalamun/NodeJS-PM2-Auto-Pull#info=devDependencies)
+ 
 ## How to Use
 
 * (Optional) Fork the repo
@@ -20,7 +24,7 @@ $ npm install
 * Start the server app
 
 ```
-$ pm2 start app.js --name auto-pull
+$ forever start app.js
 ```
 
 Modify from source code 
