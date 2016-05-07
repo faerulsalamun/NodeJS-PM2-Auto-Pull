@@ -1,0 +1,8 @@
+{
+  "preset": "airbnb",
+  "validateIndentation": 4,
+  "excludeFiles": [
+    "bower_components",
+    "node_modules"
+  ]
+}

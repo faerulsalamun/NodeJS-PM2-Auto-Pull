@@ -1,0 +1,34 @@
+{
+  "name": "NodeJS-PM2-Auto-Pull",
+  "version": "0.1.0",
+  "description": "NodeJS PM2 Auto Pull",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/faerulsalamun/NodeJS-PM2-Auto-Pull"
+  },
+  "scripts": {
+    "start": "DEBUG=NodeJS-PM2-Auto-Pull nodemon -e js app.js",
+    "debug": "DEBUG=NodeJS-PM2-Auto-Pull nodemon -e js app.js",
+    "test": "DEBUG=test,app NODE_ENV=test node_modules/mocha/bin/mocha --reporter spec --timeout 10000 test/**/*.js"
+  },
+  "main": "app.js",
+  "contributors": [
+    {
+      "name": "Faerul Salamun",
+      "email": "faerulsalamun@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.0.0-rc.4",
+    "bluebird": "^3.3.5",
+    "debug": "^2.2.0",
+    "pm2": "^1.1.3",
+    "pmx": "^0.6.1",
+    "restify": "^4.0.4",
+    "supertest": "^1.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
