@@ -6,6 +6,7 @@
  
 ## How to Use
 
+* Install forever (npm i forever -g)
 * (Optional) Fork the repo
 * Clone the repo to your local
 
@@ -26,6 +27,8 @@ $ npm install
 ```
 $ forever start app.js
 ```
+
+* Add webhooks to http://YOUR_IP_ADDRESS:7920/hook?secretKey=YOUR_SECRET_KEY
 
 Modify from source code 
 https://github.com/pm2-hive/pm2-auto-pull
